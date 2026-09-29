@@ -1,0 +1,1832 @@
+{
+  "sessions": [
+    {
+      "session_id": "SES-50E3005C",
+      "started_at": "2026-09-12T13:19:39.219337",
+      "ended_at": "2026-09-12T13:19:39.415083",
+      "message_count": 2,
+      "sentiment": {
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1
+      },
+      "frustration": {
+        "low": 1,
+        "medium": 1,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 1,
+        "order_status": 1,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-12T13:19:39.308338",
+          "speaker": "customer",
+          "text": "Thank you, your support was great.",
+          "sentiment": "positive",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-12T13:19:39.332178",
+          "speaker": "customer",
+          "text": "My order is delayed and this is frustrating.",
+          "sentiment": "negative",
+          "frustration": "medium",
+          "frustration_score": 65,
+          "escalation_recommended": true
+        },
+        {
+          "timestamp": "2026-09-12T13:19:39.349176",
+          "speaker": "agent",
+          "text": "I understand your concern. Let me check your order.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ]
+    },
+    {
+      "session_id": "SES-1121E061",
+      "started_at": "2026-09-12T13:38:55.404164",
+      "ended_at": null,
+      "message_count": 0,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 0,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 0,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": []
+    },
+    {
+      "session_id": "SES-C4286232",
+      "started_at": "2026-09-17T21:51:23.176258",
+      "ended_at": "2026-09-17T21:52:55.223763",
+      "message_count": 4,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 3,
+        "negative": 1
+      },
+      "frustration": {
+        "low": 3,
+        "medium": 1,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 1,
+        "human_escalation": 2
+      },
+      "escalated": true,
+      "escalation_ticket": "ESC-ACB61E47",
+      "messages": [
+        {
+          "timestamp": "2026-09-17T21:51:34.583926",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-17T21:51:46.038947",
+          "speaker": "customer",
+          "text": "What is the status of order 1003?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-17T21:51:59.238621",
+          "speaker": "agent",
+          "text": "Your order 1 0 0 3 for a mechanical keyboard is currently being processed. It is expected to be delivered by September sixteenth, twenty twenty six.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-17T21:52:06.366995",
+          "speaker": "customer",
+          "text": "When will it arrive?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-17T21:52:11.896200",
+          "speaker": "agent",
+          "text": "Your order is expected to arrive on September sixteenth, twenty twenty six.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-17T21:52:17.923925",
+          "speaker": "customer",
+          "text": "This is frustrating. I have been waiting for too long.",
+          "sentiment": "negative",
+          "frustration": "medium",
+          "frustration_score": 55,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-17T21:52:30.892825",
+          "speaker": "agent",
+          "text": "I'm very sorry for the frustration this has caused. I understand how important it is to receive your order on time. Would you like me to connect you with a human representative to look into this further for you?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-17T21:52:35.909868",
+          "speaker": "customer",
+          "text": "I want to speak to a human agent.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-17T21:52:52.697402",
+          "speaker": "agent",
+          "text": "I understand. I have escalated your request to a human representative. Your ticket ID is E S C A C B 6 1 E 4 7. An agent will be with you as soon as possible to help resolve this.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ]
+    },
+    {
+      "session_id": "SES-479DCF25",
+      "started_at": "2026-09-17T22:18:12.540930",
+      "ended_at": "2026-09-17T22:18:12.935678",
+      "message_count": 3,
+      "customer_messages": 2,
+      "agent_messages": 1,
+      "total_messages": 3,
+      "sentiment": {
+        "positive": 1,
+        "neutral": 0,
+        "negative": 1
+      },
+      "frustration": {
+        "low": 1,
+        "medium": 1,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 1,
+        "order_status": 1,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-17T22:18:12.849165",
+          "speaker": "customer",
+          "text": "Thank you, your support was great.",
+          "sentiment": "positive",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-17T22:18:12.874165",
+          "speaker": "customer",
+          "text": "My order is delayed and this is frustrating.",
+          "sentiment": "negative",
+          "frustration": "medium",
+          "frustration_score": 65,
+          "escalation_recommended": true
+        },
+        {
+          "timestamp": "2026-09-17T22:18:12.892164",
+          "speaker": "agent",
+          "text": "I understand your concern. Let me check your order.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ]
+    },
+    {
+      "session_id": "SES-3C76994E",
+      "started_at": "2026-09-18T20:37:31.474416",
+      "ended_at": "2026-09-18T20:38:13.424923",
+      "message_count": 3,
+      "customer_messages": 1,
+      "agent_messages": 2,
+      "total_messages": 3,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 1,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 0,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-18T20:37:42.256864",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-18T20:37:52.958910",
+          "speaker": "customer",
+          "text": "You know what is Upma?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-18T20:38:12.340874",
+          "speaker": "agent",
+          "text": "I am actually a customer support assistant designed to help you with order updates, shipping information, and company policies. I don't have information on food recipes or specific dishes like Upma. \n\nIs there anything related to your orders or our services that I can help you with?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ]
+    },
+    {
+      "session_id": "SES-377F4582",
+      "started_at": "2026-09-18T23:38:59.481750",
+      "ended_at": "2026-09-18T23:39:36.098475",
+      "message_count": 5,
+      "customer_messages": 2,
+      "agent_messages": 3,
+      "total_messages": 5,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 2,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 2,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 1,
+        "order_status": 0,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-18T23:39:10.203969",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-18T23:39:16.170376",
+          "speaker": "customer",
+          "text": "Leaders, exit list.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-18T23:39:20.362506",
+          "speaker": "customer",
+          "text": "How long does delivery take?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-18T23:39:24.528233",
+          "speaker": "agent",
+          "text": "I'm sorry, I didn't quite catch that. Could you please repeat your request or let me know how I can assist you with your order or our services?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-18T23:39:34.844078",
+          "speaker": "agent",
+          "text": "Standard delivery usually takes three to five business days, while express delivery typically takes one to two business days. Is there anything else I can help you with?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ]
+    },
+    {
+      "session_id": "SES-62D5E73C",
+      "started_at": "2026-09-18T23:44:48.192325",
+      "ended_at": "2026-09-18T23:45:39.513883",
+      "message_count": 5,
+      "customer_messages": 2,
+      "agent_messages": 3,
+      "total_messages": 5,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 2,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 2,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 1,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-18T23:44:57.329257",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-18T23:45:09.246452",
+          "speaker": "customer",
+          "text": "What is the status of order 1003?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-18T23:45:22.032114",
+          "speaker": "agent",
+          "text": "Your order 1003 for a mechanical keyboard is currently processing. It is expected to be delivered by September sixteenth, 2026.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-18T23:45:30.470698",
+          "speaker": "customer",
+          "text": "Uh, do you have any idea?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-18T23:45:38.699984",
+          "speaker": "agent",
+          "text": "I'm sorry, I'm not quite sure what you are referring to. Could you please clarify what you would like to know?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ]
+    },
+    {
+      "session_id": "SES-83A61D27",
+      "started_at": "2026-09-21T22:49:15.649223",
+      "ended_at": "2026-09-21T22:49:29.238994",
+      "message_count": 0,
+      "customer_messages": 0,
+      "agent_messages": 0,
+      "total_messages": 0,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 0,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 0,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": []
+    },
+    {
+      "session_id": "SES-A08FEBDB",
+      "started_at": "2026-09-21T22:52:55.107014",
+      "ended_at": "2026-09-21T22:53:33.215440",
+      "message_count": 5,
+      "customer_messages": 2,
+      "agent_messages": 3,
+      "total_messages": 5,
+      "sentiment": {
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 2,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 1,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-21T22:53:03.209719",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-21T22:53:11.432635",
+          "speaker": "customer",
+          "text": "What is the status of order 1003?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-21T22:53:25.024659",
+          "speaker": "agent",
+          "text": "Order 1003 is currently being processed. It contains your mechanical keyboard, and you can expect it to be delivered by September sixteenth, twenty twenty six.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-21T22:53:28.440551",
+          "speaker": "customer",
+          "text": "Thank you. That's all.",
+          "sentiment": "positive",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-21T22:53:32.105211",
+          "speaker": "agent",
+          "text": "You're very welcome! Have a wonderful day. Goodbye!",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ]
+    },
+    {
+      "session_id": "SES-C975C85F",
+      "started_at": "2026-09-21T23:01:09.087730",
+      "ended_at": "2026-09-21T23:01:53.086487",
+      "message_count": 5,
+      "customer_messages": 2,
+      "agent_messages": 3,
+      "total_messages": 5,
+      "sentiment": {
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 2,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 1,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-21T23:01:17.502311",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-21T23:01:26.448709",
+          "speaker": "customer",
+          "text": "What is the status of order 1003?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-21T23:01:38.879556",
+          "speaker": "agent",
+          "text": "Your order 1003 for a mechanical keyboard is currently processing. It is expected to be delivered by September sixteenth, twenty twenty six.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-21T23:01:44.618315",
+          "speaker": "customer",
+          "text": "That's all. Thank you.",
+          "sentiment": "positive",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-21T23:01:52.077463",
+          "speaker": "agent",
+          "text": "You're very welcome! If you need anything else in the future, don't hesitate to reach out. Have a wonderful day!",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ]
+    },
+    {
+      "session_id": "SES-A6A3E00B",
+      "started_at": "2026-09-26T21:50:10.024934",
+      "ended_at": "2026-09-26T21:50:53.860071",
+      "message_count": 5,
+      "customer_messages": 2,
+      "agent_messages": 3,
+      "total_messages": 5,
+      "sentiment": {
+        "positive": 1,
+        "neutral": 1,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 2,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 1,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-26T21:50:22.212496",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T21:50:30.596890",
+          "speaker": "customer",
+          "text": "What is the status of order 1003?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T21:50:40.002890",
+          "speaker": "agent",
+          "text": "Order 1003 is currently processing. It contains a mechanical keyboard, and you can expect it to be delivered by September",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T21:50:44.408841",
+          "speaker": "customer",
+          "text": "Okay, thank you.",
+          "sentiment": "positive",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T21:50:50.122855",
+          "speaker": "agent",
+          "text": "You're very welcome! Is there anything else I can help you with today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ]
+    },
+    {
+      "session_id": "SES-CF2FADAF",
+      "started_at": "2026-09-26T22:54:43.416838",
+      "ended_at": "2026-09-26T22:55:10.128861",
+      "message_count": 1,
+      "customer_messages": 0,
+      "agent_messages": 1,
+      "total_messages": 1,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 0,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 0,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-26T22:54:53.220659",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ]
+    },
+    {
+      "session_id": "SES-72A04AB1",
+      "started_at": "2026-09-26T23:14:18.907028",
+      "ended_at": "2026-09-26T23:15:08.314797",
+      "message_count": 6,
+      "customer_messages": 3,
+      "agent_messages": 3,
+      "total_messages": 6,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 3,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 3,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 2,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-26T23:14:28.144359",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T23:14:33.925901",
+          "speaker": "customer",
+          "text": "What is the status of—",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T23:14:44.130112",
+          "speaker": "agent",
+          "text": "I'm sorry, I didn't quite catch that. Were you asking about the status of an order? If so, could you please provide the order number?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T23:14:48.633413",
+          "speaker": "customer",
+          "text": "Y003.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T23:14:58.680643",
+          "speaker": "agent",
+          "text": "I'm sorry, I couldn't find any order matching Y zero zero three. Could you please double-check the order number and try again?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T23:15:03.295748",
+          "speaker": "customer",
+          "text": "Y003.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        }
+      ]
+    },
+    {
+      "session_id": "SES-A624BDE2",
+      "started_at": "2026-09-26T23:32:24.646716",
+      "ended_at": "2026-09-26T23:33:22.346641",
+      "message_count": 7,
+      "customer_messages": 3,
+      "agent_messages": 4,
+      "total_messages": 7,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 3,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 3,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 1,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-26T23:32:33.556853",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T23:32:38.159722",
+          "speaker": "customer",
+          "text": "What is the status of order?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T23:32:43.142503",
+          "speaker": "agent",
+          "text": "I can certainly check that for you. Do you have your order number handy?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T23:32:48.796646",
+          "speaker": "customer",
+          "text": "One zero zero three.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T23:32:59.789209",
+          "speaker": "agent",
+          "text": "Your order for a mechanical keyboard is currently processing. It is expected to be delivered by September sixteenth, twenty twenty-six.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T23:33:13.664758",
+          "speaker": "customer",
+          "text": "That's all.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-26T23:33:21.364362",
+          "speaker": "agent",
+          "text": "You're very welcome! If you need anything else in the future, feel free to reach out. Have a wonderful day!",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ]
+    },
+    {
+      "session_id": "SES-8678E192",
+      "started_at": "2026-09-27T20:41:49.683071",
+      "ended_at": "2026-09-27T20:42:43.269646",
+      "message_count": 7,
+      "customer_messages": 3,
+      "agent_messages": 4,
+      "total_messages": 7,
+      "sentiment": {
+        "positive": 1,
+        "neutral": 2,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 3,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 1,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-27T20:41:59.122935",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T20:42:08.138237",
+          "speaker": "customer",
+          "text": "Where is my order?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T20:42:13.149035",
+          "speaker": "agent",
+          "text": "I can certainly help you with that. Do you have your order number available?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T20:42:17.956805",
+          "speaker": "customer",
+          "text": "One zero zero three.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T20:42:32.086907",
+          "speaker": "agent",
+          "text": "I've found your order, number ORD 1 0 0 3. It's currently being processed, and your mechanical keyboard is expected to be delivered by September sixteenth, twenty twenty six.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T20:42:36.782533",
+          "speaker": "customer",
+          "text": "Okay, thank you.",
+          "sentiment": "positive",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T20:42:42.359677",
+          "speaker": "agent",
+          "text": "You're very welcome! Is there anything else I can assist you with today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ]
+    },
+    {
+      "session_id": "SES-764268F7",
+      "started_at": "2026-09-27T22:04:09.148857",
+      "ended_at": "2026-09-27T22:05:04.868774",
+      "message_count": 7,
+      "customer_messages": 3,
+      "agent_messages": 4,
+      "total_messages": 7,
+      "sentiment": {
+        "positive": 1,
+        "neutral": 2,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 3,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 1,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-27T22:04:17.378995",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:04:24.279904",
+          "speaker": "customer",
+          "text": "Where is my order?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:04:29.368298",
+          "speaker": "agent",
+          "text": "I can certainly help you with that. Could you please provide your order number?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:04:35.507661",
+          "speaker": "customer",
+          "text": "One zero zero three.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:04:51.275471",
+          "speaker": "agent",
+          "text": "Your order, number ORD 1 0 0 3, is currently processing. It contains your mechanical keyboard and is expected to be delivered by September sixteenth, twenty twenty six.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:04:58.877638",
+          "speaker": "customer",
+          "text": "Okay, thank you.",
+          "sentiment": "positive",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:05:04.044953",
+          "speaker": "agent",
+          "text": "You're very welcome! Is there anything else I can help you with today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ],
+      "conversation_memory": {
+        "lastOrderId": "1003",
+        "lastQuestion": "Okay, thank you.",
+        "lastKnowledgeTopic": null,
+        "escalationReason": null,
+        "lastIntent": "general_query",
+        "lastOrderStatus": "Processing",
+        "expectedDelivery": "September 16, 2026",
+        "currentIssue": "Okay, thank you.",
+        "resolutionState": "in_progress",
+        "turnCount": 3
+      }
+    },
+    {
+      "session_id": "SES-6B2CBEE8",
+      "started_at": "2026-09-27T22:11:02.313780",
+      "ended_at": "2026-09-27T22:12:00.465160",
+      "message_count": 9,
+      "customer_messages": 4,
+      "agent_messages": 5,
+      "total_messages": 9,
+      "sentiment": {
+        "positive": 1,
+        "neutral": 3,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 4,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 1,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-27T22:11:10.548605",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:11:18.345183",
+          "speaker": "customer",
+          "text": "Where is my order?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:11:23.602890",
+          "speaker": "agent",
+          "text": "I can certainly help you with that. Could you please provide your order number?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:11:28.723430",
+          "speaker": "customer",
+          "text": "One zero zero three.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:11:42.202065",
+          "speaker": "agent",
+          "text": "I've found your order, number ORD 1 0 0 3. It is currently processing, and your mechanical keyboard is expected to be delivered by September sixteenth, twenty twenty six.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:11:45.387667",
+          "speaker": "customer",
+          "text": "Okay, thank you.",
+          "sentiment": "positive",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:11:50.642677",
+          "speaker": "agent",
+          "text": "You're very welcome! Is there anything else I can assist you with today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:11:53.385281",
+          "speaker": "customer",
+          "text": "No.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-27T22:11:59.318738",
+          "speaker": "agent",
+          "text": "Thank you for calling VoiceDesk AI. Have a wonderful day!",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ],
+      "conversation_memory": {
+        "lastOrderId": "1003",
+        "lastQuestion": "No.",
+        "lastKnowledgeTopic": null,
+        "escalationReason": null,
+        "lastIntent": "general_query",
+        "lastOrderStatus": "Processing",
+        "expectedDelivery": "September 16, 2026",
+        "currentIssue": "No.",
+        "resolutionState": "in_progress",
+        "turnCount": 4
+      }
+    },
+    {
+      "session_id": "SES-2D81A70B",
+      "started_at": "2026-09-28T23:06:04.851023",
+      "ended_at": "2026-09-28T23:06:57.067355",
+      "message_count": 9,
+      "customer_messages": 4,
+      "agent_messages": 5,
+      "total_messages": 9,
+      "sentiment": {
+        "positive": 0,
+        "neutral": 4,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 4,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 1,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-28T23:06:14.675650",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:06:22.864372",
+          "speaker": "customer",
+          "text": "Where is my order?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:06:27.599265",
+          "speaker": "agent",
+          "text": "I can certainly help you with that. Do you have your order number available?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:06:32.188743",
+          "speaker": "customer",
+          "text": "Uh, 1003.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:06:42.076322",
+          "speaker": "agent",
+          "text": "Your order for the mechanical keyboard is currently processing. It is expected to be delivered by September sixteenth, twenty twenty six.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:06:44.639175",
+          "speaker": "customer",
+          "text": "Okay.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:06:49.052065",
+          "speaker": "agent",
+          "text": "Is there anything else I can assist you with today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:06:50.978031",
+          "speaker": "customer",
+          "text": "No.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:06:56.237837",
+          "speaker": "agent",
+          "text": "Thank you for calling VoiceDesk AI. Have a wonderful day!",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ],
+      "conversation_memory": {
+        "lastOrderId": "1003",
+        "lastQuestion": "No.",
+        "lastKnowledgeTopic": null,
+        "escalationReason": null,
+        "lastIntent": "general_query",
+        "lastOrderStatus": "Processing",
+        "expectedDelivery": "September 16, 2026",
+        "currentIssue": "No.",
+        "resolutionState": "in_progress",
+        "turnCount": 4
+      }
+    },
+    {
+      "session_id": "SES-A2FAE18F",
+      "started_at": "2026-09-28T23:12:21.490265",
+      "ended_at": "2026-09-28T23:13:44.860358",
+      "message_count": 11,
+      "customer_messages": 5,
+      "agent_messages": 6,
+      "total_messages": 11,
+      "sentiment": {
+        "positive": 1,
+        "neutral": 4,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 5,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 2,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-28T23:12:30.516111",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:12:38.336861",
+          "speaker": "customer",
+          "text": "Where is my order?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:12:42.971533",
+          "speaker": "agent",
+          "text": "I can certainly help you with that. Could you please provide your order number?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:12:56.473666",
+          "speaker": "customer",
+          "text": "One zero.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:13:06.192513",
+          "speaker": "agent",
+          "text": "I'm sorry, I couldn't find any information for order number 1 0. Could you please double-check the number and say it again?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:13:12.363646",
+          "speaker": "customer",
+          "text": "One zero zero three.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:13:26.309287",
+          "speaker": "agent",
+          "text": "I've found your order, number ORD 1 0 0 3. It is currently processing, and your mechanical keyboard is expected to be delivered by September 16th, 2026.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:13:30.887427",
+          "speaker": "customer",
+          "text": "Okay, thank you.",
+          "sentiment": "positive",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:13:35.538485",
+          "speaker": "agent",
+          "text": "You're very welcome! Is there anything else I can help you with today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:13:38.040552",
+          "speaker": "customer",
+          "text": "No.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:13:43.584972",
+          "speaker": "agent",
+          "text": "Thank you for calling VoiceDesk AI. Have a wonderful day!",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ],
+      "conversation_memory": {
+        "lastOrderId": "1003",
+        "lastQuestion": "No.",
+        "lastKnowledgeTopic": null,
+        "escalationReason": null,
+        "lastIntent": "general_query",
+        "lastOrderStatus": "Processing",
+        "expectedDelivery": "September 16, 2026",
+        "currentIssue": "No.",
+        "resolutionState": "in_progress",
+        "turnCount": 5
+      }
+    },
+    {
+      "session_id": "SES-0CBD7403",
+      "started_at": "2026-09-28T23:20:50.806118",
+      "ended_at": "2026-09-28T23:22:01.505488",
+      "message_count": 11,
+      "customer_messages": 5,
+      "agent_messages": 6,
+      "total_messages": 11,
+      "sentiment": {
+        "positive": 1,
+        "neutral": 4,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 5,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 0,
+        "order_status": 2,
+        "human_escalation": 0
+      },
+      "escalated": false,
+      "escalation_ticket": null,
+      "messages": [
+        {
+          "timestamp": "2026-09-28T23:20:59.828384",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:21:07.365420",
+          "speaker": "customer",
+          "text": "Where is my order?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:21:11.893472",
+          "speaker": "agent",
+          "text": "I'd be happy to check that for you. Do you have your order number handy?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:21:16.459565",
+          "speaker": "customer",
+          "text": "One zero zero.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:21:25.829017",
+          "speaker": "agent",
+          "text": "I'm sorry, but I couldn't find any order with the number 1 0 0. Could you please double-check the number and let me know?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:21:30.859525",
+          "speaker": "customer",
+          "text": "One zero zero three.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:21:43.998422",
+          "speaker": "agent",
+          "text": "I found your order, number 1 0 0 3. It's currently processing, and your mechanical keyboard is expected to be delivered by September 16, 2026.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:21:47.658916",
+          "speaker": "customer",
+          "text": "Okay, thank you.",
+          "sentiment": "positive",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:21:52.455671",
+          "speaker": "agent",
+          "text": "You're very welcome! Is there anything else I can help you with today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:21:54.786116",
+          "speaker": "customer",
+          "text": "No.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:22:00.562673",
+          "speaker": "agent",
+          "text": "Thank you for calling VoiceDesk AI. Have a wonderful day!",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ],
+      "conversation_memory": {
+        "lastOrderId": "1003",
+        "lastQuestion": "No.",
+        "lastKnowledgeTopic": null,
+        "escalationReason": null,
+        "lastIntent": "general_query",
+        "lastOrderStatus": "Processing",
+        "expectedDelivery": "September 16, 2026",
+        "currentIssue": "No.",
+        "resolutionState": "in_progress",
+        "turnCount": 5
+      }
+    },
+    {
+      "session_id": "SES-46D012EA",
+      "started_at": "2026-09-28T23:24:19.642444",
+      "ended_at": "2026-09-28T23:26:41.147113",
+      "message_count": 20,
+      "customer_messages": 10,
+      "agent_messages": 10,
+      "total_messages": 20,
+      "sentiment": {
+        "positive": 1,
+        "neutral": 9,
+        "negative": 0
+      },
+      "frustration": {
+        "low": 10,
+        "medium": 0,
+        "high": 0
+      },
+      "tool_usage": {
+        "knowledge_search": 1,
+        "order_status": 1,
+        "human_escalation": 1
+      },
+      "escalated": true,
+      "escalation_ticket": "ESC-83DF2F53",
+      "messages": [
+        {
+          "timestamp": "2026-09-28T23:24:28.177314",
+          "speaker": "agent",
+          "text": "Hello! Welcome to VoiceDesk AI. How can I help you today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:24:36.850252",
+          "speaker": "customer",
+          "text": "What is your return policy?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:24:51.162815",
+          "speaker": "agent",
+          "text": "You can request a return within 30 days of receiving your product. Just make sure the item is unused and in its original condition. If you'd like to start a return, I can help you with that if you have your order number ready.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:25:05.224535",
+          "speaker": "customer",
+          "text": "Um, where is my order?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:25:10.635121",
+          "speaker": "agent",
+          "text": "I can certainly check that for you. Do you have your order number handy?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:25:16.554948",
+          "speaker": "customer",
+          "text": "One zero zero three.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:25:27.563649",
+          "speaker": "agent",
+          "text": "Your order for the Mechanical Keyboard is currently processing. It is expected to be delivered by September sixteenth, twenty twenty six.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:25:30.810050",
+          "speaker": "customer",
+          "text": "When will it arrive?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:25:38.234265",
+          "speaker": "agent",
+          "text": "Your order is currently processing and is expected to arrive by September sixteenth, twenty twenty six.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:25:43.495383",
+          "speaker": "customer",
+          "text": "I want to speak human easily.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:25:50.138534",
+          "speaker": "agent",
+          "text": "I can certainly help you with that. Could you please tell me the reason you'd like to speak with a human agent?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:25:54.302751",
+          "speaker": "customer",
+          "text": "Just for inquiry.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:26:08.670953",
+          "speaker": "agent",
+          "text": "I have escalated your request to a human agent for your inquiry. Your ticket ID is ESC dash 8 3 D F 2 F 5 3. Someone will be with you shortly.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:26:12.995268",
+          "speaker": "customer",
+          "text": "Can you repeat?",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:26:17.075387",
+          "speaker": "customer",
+          "text": "The ID, agent ID.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:26:24.037795",
+          "speaker": "agent",
+          "text": "Of course. Your ticket ID is ESC dash 8 3 D F 2 F 5 3.",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:26:27.694154",
+          "speaker": "customer",
+          "text": "Okay, thank you.",
+          "sentiment": "positive",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:26:32.551355",
+          "speaker": "agent",
+          "text": "You're very welcome! Is there anything else I can help you with today?",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:26:34.794781",
+          "speaker": "customer",
+          "text": "No.",
+          "sentiment": "neutral",
+          "frustration": "low",
+          "frustration_score": 0,
+          "escalation_recommended": false
+        },
+        {
+          "timestamp": "2026-09-28T23:26:40.283159",
+          "speaker": "agent",
+          "text": "Thank you for calling VoiceDesk AI. Have a wonderful day!",
+          "sentiment": null,
+          "frustration": null,
+          "frustration_score": null,
+          "escalation_recommended": false
+        }
+      ],
+      "conversation_memory": {
+        "lastOrderId": "1003",
+        "lastQuestion": "No.",
+        "lastKnowledgeTopic": "return policy",
+        "escalationReason": "Customer inquiry",
+        "lastIntent": "general_query",
+        "lastOrderStatus": "Processing",
+        "expectedDelivery": "September 16, 2026",
+        "currentIssue": "No.",
+        "resolutionState": "in_progress",
+        "turnCount": 10
+      }
+    }
+  ]
+}

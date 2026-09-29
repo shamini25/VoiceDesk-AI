@@ -1,0 +1,68 @@
+[
+  {
+    "id": "shipping_001",
+    "category": "Shipping",
+    "question": "How long does delivery take?",
+    "answer": "Standard delivery usually takes 3 to 5 business days. Express delivery usually takes 1 to 2 business days."
+  },
+  {
+    "id": "shipping_002",
+    "category": "Shipping",
+    "question": "Can I track my order?",
+    "answer": "Yes. Once your order has been shipped, you can track it using the tracking link provided in your order confirmation or shipping notification."
+  },
+  {
+    "id": "shipping_003",
+    "category": "Shipping",
+    "question": "What should I do if my order is delayed?",
+    "answer": "If your order has not arrived within the expected delivery window, please provide your order number so we can check its status. If the shipment is significantly delayed, a human support agent can investigate further."
+  },
+  {
+    "id": "returns_001",
+    "category": "Returns",
+    "question": "What is the return policy?",
+    "answer": "Customers can request a return within 30 days of receiving an eligible product. The product should generally be unused and in its original condition."
+  },
+  {
+    "id": "returns_002",
+    "category": "Returns",
+    "question": "How do I return a product?",
+    "answer": "To start a return, provide your order number and the reason for the return. Support will verify the order and provide the next steps."
+  },
+  {
+    "id": "refund_001",
+    "category": "Refunds",
+    "question": "How long does a refund take?",
+    "answer": "After a return is approved and processed, refunds are normally issued to the original payment method. The time for the amount to appear can depend on the payment provider."
+  },
+  {
+    "id": "payment_001",
+    "category": "Payments",
+    "question": "What payment methods are supported?",
+    "answer": "Customers can pay using supported credit cards, debit cards, and other payment methods available during checkout."
+  },
+  {
+    "id": "payment_002",
+    "category": "Payments",
+    "question": "My payment failed. What should I do?",
+    "answer": "First verify that your payment details are correct and that your bank or payment provider has approved the transaction. If the payment continues to fail, contact support with the order or transaction details."
+  },
+  {
+    "id": "warranty_001",
+    "category": "Warranty",
+    "question": "Do products have a warranty?",
+    "answer": "Warranty coverage depends on the product. Customers should check the product documentation or provide the product name so support can verify the applicable warranty information."
+  },
+  {
+    "id": "account_001",
+    "category": "Account",
+    "question": "I forgot my password. What should I do?",
+    "answer": "Use the password reset option on the sign-in page and follow the instructions sent to your registered email address."
+  },
+  {
+    "id": "support_001",
+    "category": "Human Support",
+    "question": "How can I speak to a human support agent?",
+    "answer": "VoiceDesk can escalate the conversation to a human support agent when the issue requires manual assistance or cannot be resolved automatically."
+  }
+]
